@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yazmin Del Rosario</title>
+  <!-- Primary Meta Tags -->
+  <title>Yazmin Del Rosario, contadora y emprendedora</title>
+  <meta name="title" content="Yazmin Del Rosario, contadora y emprendedora" />
+  <meta name="description" content="Web Personal Responsiva donde la profesional detalla lo más relevante de su carrera" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/YazmindelRosario/BootcampTC" />
+  <meta property="og:title" content="Yazmin Del Rosario, contadora y emprendedora" />
+  <meta property="og:description" content="Web Personal Responsiva donde la profesional detalla lo más relevante de su carrera" />
+  <meta property="og:image" content="http://127.0.0.1:5500/semana-1/pagina%20personal/img/1627004891571.jpg" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://github.com/YazmindelRosario/BootcampTC" />
+  <meta property="twitter:title" content="Yazmin Del Rosario, contadora y emprendedora" />
+  <meta property="twitter:description" content="Web Personal Responsiva donde la profesional detalla lo más relevante de su carrera" />
+  <meta property="twitter:image" content="http://127.0.0.1:5500/semana-1/pagina%20personal/img/1627004891571.jpg" />
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+ <header>
+  <nav>
+    <a href="#">
+      <img src="./img/TASAYCO GONZALES YAZMIN DEL ROSARIO_CONTABILIDAD_LIMA_B.jpg" alt="Logo de Yazmin Del Rosario" width="64px"/>
+    </a>
+    <ul>
+      <li><a href="#">Perfil</a></li>
+      <li><a href="#">Experiencia</a></li>
+      <li><a href="#">Habilidades</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <article>
+    <div>
+     <h1>Yazmin Del Rosario</h1>
+      <p>
+      Bachiller de contabilidad perteneciente al quinto superior
+      </p>
+     <div>
+      <button>CV</button>
+      <button>Portafolio</button>
+     </div> 
+    </div>
+    <figure>
+      <img
+        src="./img/1627004891571.jpg"
+        alt="Yazmin Del Rosario" width="320px" />
+    </figure>
+  </article>
+   
+  <section>
+    <h2>Experiencia</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>N</th>
+          <th>Empresa</th>
+          <th>Cargo</th>
+          <th>Funciones</th>
+          <th>Periodo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sanna</td>
+          <td>Asistente de Contabilidad</td>
+          <td>
+            <ul>
+              <li>Manejo de conciliaciones bancarias del BBVA</li>
+              <li>Aprobación de documentos pendientes de pago</li>
+            </ul>
+          </td>
+          <td>
+            enero 2022, presente
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Sunafil</td>
+          <td>Practicante Profesional de Contabilidad</td>
+          <td>
+            <ul>
+              <li>Manejo del sistema de cobranzas para deudas coactivas</li>
+              <li>Creación de base de datos para conciliaciones e imputaciones de cheques</li>
+            </ul>
+          </td>
+          <td>
+            diciembre 2020, agosto 2021
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Icpna</td>
+          <td>Practicante pre profesional de Contabilidad</td>
+          <td>
+            <ul>
+              <li>Análisis de cuentas de activo fijo</li>
+              <li>Manejo de Spring y portal Sunat</li>
+            </ul>
+          </td>
+          <td>
+            octubre 2019, abril 2020
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>SUNAT</td>
+          <td>Pasante de Contabilidad</td>
+          <td>
+            <ul>
+              <li>Apoyo en gestión de orientación al contribuyente </li>
+              <li>Capacitaciones sobre impuestos e inventarios de aduanas</li>
+            </ul>
+          </td>
+          <td>
+            julio 2018, diciembre 2018
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section>
+    <h2>Contacto</h2>
+    <form action="/">
+      <input type="text" placeholder="Nombre" name="nombre" required />
+      <hr />
+      <input type="email" placeholder="Correo" name="email" required />
+      <hr />
+      <input type="number" id="celular" placeholder="Celular" name="celular" min="900000000" max="999999999"
+        required />
+      <hr />
+      <textarea placeholder="Mensaje" name="mensaje" cols="30" rows="10" required></textarea>
+      <hr />
+      <label for="proyecto">Sueño a realizar</label>
+        <select name="proyecto" id="proyecto" required>
+          <option value="primaria">Landing Page</option>
+          <option value="primaria">Web Page</option>
+          <option value="primaria">e-commerce</option>
+          <option value="inicial">Aplicación empresarial</option>
+        </select>
+        <hr />
+        <h4>Plan</h4>
+        <input type="radio" name="plan" id="pro" value="pro" required />
+        <label for="pro">Pro</label>
+        <input type="radio" name="plan" id="medium" value="medium" required />
+        <label for="medium">Medio</label>
+        <input type="radio" name="plan" id="basic" value="basic" required />
+        <label for="basic">Básico</label>
+        <p>Por favor indica qué plan deseas</p>
+        <hr />
+        <h4>Secciones adicionales</h4>
+        <input type="checkbox" name="upgrade" id="seo" value="seo" />
+        <label for="css">SEO</label>
+        <input type="checkbox" name="upgrade" id="design" value="design" />
+        <label for="javascript">Diseño</label>
+        <input type="checkbox" name="upgrade" id="marketing" value="marketing" />
+        <label for="html">Marketing</label>
+        <hr />
+        <button>Empieza a soñar</button>
+      </form>
+  </section>
+
+  <footer>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/yazmin-del-rosario/">
+            <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="LinkedIn" width="32px" />
+          </a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=51926689119">
+            <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" width="32px" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/YazmindelRosario">
+            <img src="https://image.flaticon.com/icons/png/512/733/733553.png" alt="GitHub" width="32px" />
+          </a>
+        </li>
+        <li>
+          <a href="https://web.facebook.com/yazmin1998/">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="32px" />
+          </a>
+        </li>
+        <li>
+          <a href="mailto:yazmin.tasayco@gmail.com">
+            <img src="https://cdn-icons-png.flaticon.com/512/893/893257.png" alt="Correo" width="32px" />
+          </a>
+        </li>
+      </ul>
+      <p>🦄Copyright &copy; 2022 <a href="#">Elliot Garamendi.</a> Todos los derechos reservados.🦄</p>
+    </nav>
+  </footer>
+ 
+
+</main>
+</body>
+</html>
